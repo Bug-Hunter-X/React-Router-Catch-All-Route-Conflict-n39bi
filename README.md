@@ -1,0 +1,3 @@
+# React Router Catch-All Route Conflict
+
+This repository demonstrates a common issue with React Router's catch-all route (`/*`) when it's not placed correctly within the `Routes` component.  The catch-all route should always be defined last.  Incorrect placement leads to unexpected behavior where the catch-all route matches URLs before other more specific routes, preventing those other routes from rendering.
